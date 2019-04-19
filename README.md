@@ -1,7 +1,8 @@
 # Van-Field 个人博客
 这里用来写我的个人博客！
 <p align='center'>
-<img src='contents/images/background-cover_.png'>
+<img src='https://mmbiz.qpic.cn/mmbiz_png/vO7l6lQ0Bwry3efufiaHetOoVzwcOPqcgQvSZaBXAEzdwIAtjzPwL7emTK3smtOmReEIaHh61YTwmYylIFsGYOA/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1'>
+<!-- <img src='contents/images/background-cover_.png'> -->
 </p>
 <!--
 <p align='center'>

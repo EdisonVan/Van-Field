@@ -78,6 +78,8 @@ MyEbook Link :/usr/local/bin/ebook-convert
 | ------ | ---- |
 | markdown-table-editor     |   写表格呗   |
 ```
+15.高亮插件
+atom-wxml
 
 ---
 # Atom编辑器书写markdown注意事项

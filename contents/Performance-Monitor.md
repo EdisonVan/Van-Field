@@ -36,12 +36,54 @@ ARMS 前端监控平台重点监控页面的加载过程和运行时状态，同
 [展示流程](https://aliware-images.oss-cn-hangzhou.aliyuncs.com/walkthrough/arms-bm-dashboard.html?spm=a2c4g.11186623.2.13.53ba5362wajkeX#/)
 
 ### JS 错误统计
+ARMS前端监控中，JS 错误率的计算公式为：`JS 错误率 = 指定时间内发生 JS 错误的 PV / 总 PV `
+左侧的错误率排行标签页上，列出的是站点内错误率最高或最低的前 100 个页面。
+右侧是指定时间范围内的 JS 错误率曲线和 PV。
+![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/152274/155496245843633_zh-CN.png)
+
+#### JS 错误排查方式
+![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/152274/155496245943646_zh-CN.png)
+**JS错误详情页面**
+![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/152274/155496245943647_zh-CN.png)
+每条错误可显示的关键信息：
+- 上报时间
+- 日志类型
+- 页面地址
+- 浏览器
+- 设备
+- 地域
+- Tag
+- UA(User Agent)
+- Param 参数
+- Message(信息）
+- Stack(错误栈信息)
+- File(错误文件)
+- Line/Col(错误位置）
 
 ### JS 错误诊断
 [操作流程](https://aliware-images.oss-cn-hangzhou.aliyuncs.com/walkthrough/arms-bm-js-error-diagnosis.html?spm=a2c4g.11186623.2.15.5fc86ae4Y08Gt1#/1)
 
 ### API 请求监控
+展示以下信息：
+- 每个 API 的成功率
+- API 返回信息
+- API 接口的调用成功平均耗时
+- API 接口的调用失败平均耗时
+
+以及上述统计数据在以下维度上的分布情况
+- 地理位置
+- 浏览器
+- 操作系统
+- 设备
+- 分辨率
+
 ### 自定义统计
+1.求和统计：
+- 用于统计业务中**某些事件发生的次数总和**，例如某个按钮被点击的次数、某个模块被加载的次数等
+
+2.均值统计：
+- 用于统计业务中**某些事件发生的平均值**，例如某个模块加载的平均耗时等
+
 ### 前后端链路追踪
 
 # 对比微软insight监控工具 （待进行）

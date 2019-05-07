@@ -41,6 +41,7 @@ ARMS 前端监控平台重点监控页面的加载过程和运行时状态，同
 ### JS 错误统计
 ARMS前端监控中，JS 错误率的计算公式为：`JS 错误率 = 指定时间内发生 JS 错误的 PV / 总 PV `
 左侧的错误率排行标签页上，列出的是站点内错误率最高或最低的前 100 个页面。
+
 右侧是指定时间范围内的 JS 错误率曲线和 PV。
 ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/152274/155496245843633_zh-CN.png)
 

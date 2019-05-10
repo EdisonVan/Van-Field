@@ -22,10 +22,25 @@ Atom几大特点[待完善]
 >  能直接和印象笔记绑定，实现随时存储你的文章
   能直接粘贴图片(待完善)
 
-## 插件下载
-下载方式：Preference-Install-搜索插件名
-
+## 插件下载(Preference-Install-搜索插件名)
+### 高速下载方式1：
 **安装时请开全局代理，不然安装很慢**
+
+### 高速下载方式2：
+在自己的Atom的packages文件夹中打开终端通过yarn命令行进行下载，如下载atom-Beautify就是`yarn add atom-beautify`
+
+自己的Atom的packages文件夹：
+![Atom-Packages位置-20190510](../images/Atom-Packages位置-20190510.png)
+
+### 高速下载方式3：
+打开[Atom插件官网](https://atom.io/packages)，找到自己需要安装的插件介绍页面，点击Versions到自己要下载的版本复制github链接
+然后在Atom的packages文件夹下打开终端中执行命令
+如下载atom-Beautify就是`yarn add atom-beautify`
+git clone git插件地址
+cd xxx (xxx为下载好的插件所在文件)
+yarn/cnpm install  (推荐yarn)
+最后重启Atom，插件安装完成
+
 1.预览插件
   1. markdown-preview-enhanced（预览）[宇宙无敌最强]
     该插件的详细功能请看 [Github文档](https://shd101wyy.github.io/markdown-preview-enhanced/#/zh-cn/)
@@ -47,6 +62,7 @@ Atom几大特点[待完善]
 
 6.Atom Beautify
 格式化代码的插件
+- settings
 
 7.markdown-assistant [待完善]
   >要配合uploader使用

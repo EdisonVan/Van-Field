@@ -63,6 +63,8 @@ yarn/cnpm install  (推荐yarn)
 6.Atom Beautify
 格式化代码的插件
 - settings
+  [使用方法参考](https://blog.csdn.net/z_blackbear/article/details/81943503)
+  [格式化小程序](https://blog.csdn.net/a309785147/article/details/79001166)
 
 7.markdown-assistant [待完善]
   >要配合uploader使用
@@ -96,6 +98,20 @@ MyEbook Link :/usr/local/bin/ebook-convert
 ```
 15.高亮插件
 atom-wxml
+16.文件路径自动提示：autocomplete-paths
+17.代码快速生成：Emmet
+18.open-in-browser / open-in-browsers
+右键左侧菜单让html在浏览器中打开，不用再去文件里双击啦~
+19.javascript-snippets：
+js片段代码自动补全，就像用emmet写html一样 查看示例
+20.file-icons：
+左侧树状图下，根据文件类型左侧显示不同图标
+21.docblockr
+智能代码注释，让注释更有规范
+22.git-plus
+在 Atom 里面执行 Git 命令，不用来回切换终端和编辑器
+23.git-control
+git面板
 
 ---
 # Atom编辑器书写markdown注意事项

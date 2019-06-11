@@ -5,60 +5,87 @@ ebook:
 ---
 
 # 前言
-为什么不用VsCode写markdown,因为插件装太多各种快捷键冲突，强力推荐[Atom](https://atom.io/)书写、**官网访问似乎要开代理**
+## markdown可以用来干嘛？
+- 项目需求分析
+- 开发项目收获记载
+- 技术书籍阅读笔记
+- 给心爱的姑娘写信
+- 社交平台写作：GitHub、微信公众号、知乎、博客园、语雀、掘金等众多平台支持markdown
+
+## 学习markdown（记少不记多的原则）
+献上我的markdown笔记（相信我看着一个就足以应付日常使用了，整理于markdown官方文档和个人实践！）
+
+## 推荐工具
+推荐使用Atom，为什么不用VsCode？因为vscode装太多插件可能导致各种快捷键冲突，所以强力推荐[Atom](https://atom.io/)专职书写markdown!
 
 # 目录
 * [章 1-Readme.md编写规范](#Readme.md编写规范)
-  * [特性-待完善]()
+  <!-- * [特性-待完善]() -->
 * [章 2-为什么选Atom](#为什么选Atom)
   * [插件下载](#插件下载)
 * [章 3-常用快捷键](#常用快捷键)
 
-# Readme.md编写规范
-> https://blog.csdn.net/hachp365/article/details/58586926
+单文件中章节跳转写法如下：
+```markdown
+* [章 1-Readme.md编写规范](#Readme.md编写规范)
+* [章 2-为什么选Atom](#为什么选Atom)
+  * [插件下载](#插件下载)
+* [章 3-常用快捷键](#常用快捷键)
+```
 
-# 为什么选Atom
+<!-- # 为什么选Atom
 Atom几大特点[待完善]
 >  能直接和印象笔记绑定，实现随时存储你的文章
-  能直接粘贴图片(待完善)
+  能直接粘贴图片(待完善) -->
 
-## 插件下载(Preference-Install-搜索插件名)
+## Atom插件下载
 ### 高速下载方式1：
-**安装时请开全局代理，不然安装很慢**
+开启全局代理，在Atom编辑器中点击`Preference-Install-搜索插件名`进行下载
 
 ### 高速下载方式2：
-在自己的Atom的packages文件夹中打开终端通过yarn命令行进行下载，如下载atom-Beautify就是`yarn add atom-beautify`
-
-自己的Atom的packages文件夹：
+在自己的Atom的packages文件夹中打开终端通过yarn命令行进行下载！
+请看准自己的Atom的packages文件夹！
 ![Atom-Packages位置-20190510](../images/Atom-Packages位置-20190510.png)
+<!-- ![Atom-Packages位置-20190510](https://i.loli.net/2019/06/11/5cff56c11f5ed73012.png) -->
 
-### 高速下载方式3：
-打开[Atom插件官网](https://atom.io/packages)，找到自己需要安装的插件介绍页面，点击Versions到自己要下载的版本复制github链接
-然后在Atom的packages文件夹下打开终端中执行命令
-如下载atom-Beautify就是`yarn add atom-beautify`
-git clone git插件地址
-cd xxx (xxx为下载好的插件所在文件)
-yarn/cnpm install  (推荐yarn)
-最后重启Atom，插件安装完成
+Step1.打开[Atom插件官网](https://atom.io/packages)，找到自己需要安装的插件介绍页面，点击Versions到自己要下载的版本复制github链接
+![插件Link-20190611](../images/插件Link-20190611.png)
+<!-- ![插件Link-20190611](https://i.loli.net/2019/06/11/5cff56c1a98d243788.png) -->
 
-1.预览插件
-  1. markdown-preview-enhanced（预览）[宇宙无敌最强]
-    该插件的详细功能请看 [Github文档](https://shd101wyy.github.io/markdown-preview-enhanced/#/zh-cn/)
-    功能简介：可以制作流程图和幻灯片，以及拖动图片上传，拖动的图片上传的地址是https://i.imgur.com，不放心的就要经常做好备份了。本地留一个备份,写完以后可以直接导出成html，pdf，md文件，以及生成长图，等等。
- * 使用该插件前，请先禁用Atom自带的markdown-preview （添加gif补充操作）
+<!-- Tip:`open-in-browsers的地址为`https://atom.io/packages/open-in-browsers` -->
+Step2.在Atom对应的packages文件夹下打开终端
+![PackageUrl-20190611](../images/PackageUrl-20190611.png)
+<!-- ![PackageUrl-20190611](https://i.loli.net/2019/06/11/5cff56c20d47487330.png) -->
+
+Step3.以下载pretty-json为例
+   - `git clone pretty-json对应的git仓库地址`
+   - `cd atom-Beautify`   （进入pretty-json插件所在文件夹）
+   - `yarn/cnpm install`  (部署安装插件的依赖库，推荐使用yarn)
+![InstallMethod-20190611](../images/InstallMethod-20190611.png)
+<!-- ![InstallMethod-20190611](https://i.loli.net/2019/06/11/5cff56c1dfda532547.png) -->
+Step4.最后重启Atom，插件安装完成
+
+1.预览插件markdown-preview-enhanced（预览）[宇宙无敌最强]
+功能简介：可以制作流程图和幻灯片，以及拖动图片上传，拖动的图片上传的地址是https://i.imgur.com，不放心的就要经常做好备份了。本地留一个备份,写完以后可以直接导出成html，pdf，md文件，以及生成长图，等等。
+![Preview-20190611](../images/Preview-20190611.png)
+<!-- ![Preview-20190611](https://i.loli.net/2019/06/11/5cff56c3209fd40993.png) -->
+* 使用该插件前，请先禁用Atom自带的markdown-preview插件（Enable点为disabled即可）
+[markdown-preview-enhanced功能详细介绍](https://shd101wyy.github.io/markdown-preview-enhanced/#/zh-cn/)
 
 2.同步滚动(markdown-scroll-sync)
+![Scroll-20190611](../images/Scroll-20190611.gif)
+<!-- ![Scroll-20190611](https://i.loli.net/2019/06/11/5cff56c75886d36084.gif) -->
 
 3.代码增强(language-markdown)：代码着色等基本功能，还提供了快捷的代码片段生成等功能 [请在settings中看快捷键]
 
-4.图片粘贴(markdown-image-paste)一步完成一堆重复操作：截图－命名－保存－插入。 [无效，请自查原因]
+4.图片粘贴(markdown-image-paste)一步完成一堆重复操作：截图－命名－保存－插入。 [需要配合千牛云等工具搭建图床，自行拓展]
   步骤1. 使用截图工具将图片复制到系统剪切板。
   步骤2. 在Markdown新起一行输入文件名。
   步骤3. Ctrl + V 会自动把图片保存到Markdown文件相同目录下(因此要求Markdown文件应该先保存)，并命名为刚输入的文件名，同时在刚才输入文件名行处生成img标签。
 * 传统插入图片方式
 `<img src="assets/Web.jpg" width=1200 height=1500>`
 
-5.git动图插入插件](https://www.cockos.com/licecap/)
+5.[git动图插入插件](https://www.cockos.com/licecap/)
 
 6.Atom Beautify
 格式化代码的插件
@@ -76,6 +103,7 @@ yarn/cnpm install  (推荐yarn)
   使用方式：1、选中一段json，只要选择json的内容接口；2、使用快捷键 ctrl + shift + p，打开命令输入框 输入 pretty json prettify，按enter键即可看到格式化的效果；
 
 10.markdown格式规范插件 [待查找]
+
 11.Atom导出epub文件  [通过calibre 这个软件]
 [Github参考教程](https://shd101wyy.github.io/markdown-preview-enhanced/#/zh-cn/ebook)
 MyEbook Link :/usr/local/bin/ebook-convert
@@ -91,11 +119,17 @@ MyEbook Link :/usr/local/bin/ebook-convert
 使用:用Tab换一格,因为使用了language-markdown插件，所以这里要用空格
 用Enter换行
 用ESC退出表格编辑
+写法：
 ```
 | 插件 | 功能 |
 | ------ | ---- |
 | markdown-table-editor     |   写表格呗   |
 ```
+效果：
+| 插件 | 功能 |
+| ------ | ---- |
+| markdown-table-editor     |   写表格呗   |
+
 15.高亮插件
 atom-wxml
 16.文件路径自动提示：autocomplete-paths
@@ -131,7 +165,24 @@ visibility: hidden;
 }
 ```
 
-# 常用快捷键
+* 制作目录分类管理笔记
+**目录.md**
+```
+* [前言](doc/preface.md)
+* [作用域与闭包](doc/scope.md)
+* [this全面解析](doc/this.md)
+* [对象](doc/Object.md)
+```
+`doc/preface.md`表示自动在`目录.md`同级位置创建一个doc文件夹，doc文件夹中会包含`preface.md`文件！
+**doc文件夹下子文件预览**
+![目录-20190611](../images/目录-20190611.png)
+<!-- ![目录-20190611](https://i.loli.net/2019/06/11/5cff56bea4eaf86661.png) -->
+
+
+<!-- # Readme.md编写规范
+> https://blog.csdn.net/hachp365/article/details/58586926 -->
+
+# Atom常用快捷键
 | 快捷键                       | 功能                                                                    |
 | ---------------------------- | ----------------------------------------------------------------------- |
 | cmd + shift + p              | 打开命令菜单                                                            |

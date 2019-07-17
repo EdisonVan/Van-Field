@@ -48,7 +48,7 @@ Atom几大特点[待完善]
 ![Atom-Packages位置-20190510](../images/Atom-Packages位置-20190510.png)
 <!-- ![Atom-Packages位置-20190510](https://i.loli.net/2019/06/11/5cff56c11f5ed73012.png) -->
 
-Step1.打开[Atom插件官网](https://atom.io/packages)，找到自己需要安装的插件介绍页面，点击Versions到自己要下载的版本复制github链接
+Step1.打开[Atom插件官网](https://atom.io/packages)，找到自己需要安装的插件介绍页面，点击Versions到自己要下载的版本复制github链接 常见格式：`https://atom.io/packages/language-markdown`
 ![插件Link-20190611](../images/插件Link-20190611.png)
 <!-- ![插件Link-20190611](https://i.loli.net/2019/06/11/5cff56c1a98d243788.png) -->
 
@@ -130,21 +130,19 @@ MyEbook Link :/usr/local/bin/ebook-convert
 | ------ | ---- |
 | markdown-table-editor     |   写表格呗   |
 
-15.高亮插件
-atom-wxml
-16.文件路径自动提示：autocomplete-paths
-17.代码快速生成：Emmet
-18.open-in-browser / open-in-browsers
+15.文件路径自动提示：autocomplete-paths
+16.代码快速生成：Emmet
+17.open-in-browser / open-in-browsers
 右键左侧菜单让html在浏览器中打开，不用再去文件里双击啦~
-19.javascript-snippets：
+18.javascript-snippets：
 js片段代码自动补全，就像用emmet写html一样 查看示例
-20.file-icons：
+19.file-icons：
 左侧树状图下，根据文件类型左侧显示不同图标
-21.docblockr
+20.docblockr
 智能代码注释，让注释更有规范
-22.git-plus
+21.git-plus
 在 Atom 里面执行 Git 命令，不用来回切换终端和编辑器
-23.git-control
+22.git-control
 git面板
 
 ---
